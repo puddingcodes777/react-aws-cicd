@@ -151,7 +151,7 @@ export const Dashboard: React.FC = () => {
                 <span>Welcome back, {user?.name}!</span>
               </p>
             </div>
-            <div className='flex space-x-3'>
+            {/* <div className='flex space-x-3'>
               <button
                 onClick={handleRefresh}
                 disabled={loading}
@@ -171,7 +171,7 @@ export const Dashboard: React.FC = () => {
                 </div>
                 <span>Sign Out</span>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </header>
